@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Shadrack.Dev</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Custom cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Header Component -->
+    <app-header></app-header>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="text-center py-3">
+                <h1 class="display-4 fw-bold">Projects</h1>
+                <p class="lead">Each project is a testament to innovation and accessibility ✨</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="mb-5">
+                <p class="lead">As a Full-Stack Developer specializing in accessible web applications, my projects reflect my commitment to creating digital experiences that are both technically sound and accessible to all users. Each project represents an opportunity to solve real-world problems while adhering to ethical development practices.</p>
+            </div>
+            
+            <project-filter></project-filter>
+            
+            <div class="row g-4 mt-3" id="projects-grid">
+                <div class="col-md-6 col-lg-4 project-item web">
+                    <project-card 
+                        image="https://via.placeholder.com/400x250"
+                        title="TICTACTOE-GAME"
+                        description="A simple yet engaging Tic-Tac-Toe game built with React, focusing on developing interactive UI components and understanding fundamental React concepts. Special attention was given to keyboard navigation and screen reader support."
+                        tags="React,JavaScript,CSS,Accessibility"
+                        github="https://github.com/yourusername/tictactoe-game"
+                        demo="https://yourliveurl.com/tictactoe-game"
+                    ></project-card>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 project-item web app">
+                    <project-card 
+                        image="https://via.placeholder.com/400x250"
+                        title="Personal Portfolio Web App"
+                        description="Portfolio built with Flask and React to showcase my skills, projects, and experience as a developer | Student. Features: Admin Panel, Dynamic content, API, Responsive Design, and WCAG compliance for accessibility."
+                        tags="Flask,React,API,WCAG"
+                        github="https://github.com/yourusername/personal-portfolio"
+                        demo="https://yourliveurl.com/personal-portfolio"
+                    ></project-card>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 project-item app">
+                    <project-card 
+                        image="https://via.placeholder.com/400x250"
+                        title="Patient Tracker: Java-Webapp"
+                        description="HEALTHTRACE, designed to link patients and doctors from the time of Diagnosis to Recovery. Hands on JSP and servlets & MySQL database. Created with ethical considerations for patient data privacy and security."
+                        tags="Java,JSP,MySQL,Healthcare"
+                        github="https://github.com/yourusername/patient-tracker"
+                        demo="https://yourliveurl.com/patient-tracker"
+                    ></project-card>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 project-item ui app">
+                    <project-card 
+                        image="https://via.placeholder.com/400x250"
+                        title="Hostel Management System GUI"
+                        description="I applied my object-oriented programming skills and integrated a SQL database to manage hostel operations efficiently. The system also features a user-friendly GUI with accessibility features like keyboard navigation and high contrast modes."
+                        tags="Java,SQL,GUI,Accessibility"
+                        github="https://github.com/yourusername/hostel-management-system"
+                        demo="https://yourliveurl.com/hostel-management-system"
+                    ></project-card>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 project-item web">
+                    <project-card 
+                        image="https://via.placeholder.com/400x250"
+                        title="Emergency Reporting Web App"
+                        description="A vanilla PHP-based application that allows users to report emergencies through a call, one-tap action, or message, ensuring quick and accessible incident reporting for timely response. Designed with extensive accessibility features."
+                        tags="PHP,MySQL,AJAX,Emergency Services"
+                        github="https://github.com/yourusername/emergency-reporting"
+                        demo="https://yourliveurl.com/emergency-reporting"
+                    ></project-card>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 project-item ui">
+                    <project-card 
+                        image="https://via.placeholder.com/400x250"
+                        title="Accessible E-Commerce UI/UX Design"
+                        description="A comprehensive UI/UX design for a modern e-commerce platform, featuring intuitive navigation, product showcases, and a seamless checkout process. Designed with WCAG guidelines in mind to ensure a truly inclusive shopping experience."
+                        tags="Figma,UI/UX,Responsive,WCAG"
+                        github="#"
+                        demo="#"
+                    ></project-card>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Component -->
+    <app-footer></app-footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../components/header.js"></script>
+    <script src="../components/footer.js"></script>
+    <script src="../components/project-filter.js"></script>
+    <script src="../components/project-card.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
