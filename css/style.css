@@ -383,6 +383,13 @@ nav a:hover::after {
     border: none;
 }
 
+/* Compact video for homepage */
+.compact-video {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 50.625%; /* Reduced height while maintaining 16:9 ratio */
+}
+
 /* Adjust media queries for new layout */
 @media (max-width: 992px) {
     .hero-content {
