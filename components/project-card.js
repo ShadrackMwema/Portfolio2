@@ -9,7 +9,6 @@ class ProjectCard extends HTMLElement {
     }
 
     connectedCallback() {
-        const image = this.getAttribute('image') || 'https://via.placeholder.com/400x250';
         const title = this.getAttribute('title') || 'Project Title';
         const description = this.getAttribute('description') || 'Project description';
         const tags = (this.getAttribute('tags') || '').split(',');
@@ -22,7 +21,6 @@ class ProjectCard extends HTMLElement {
         
         this.innerHTML = `
             <div class="card h-100 shadow-sm border-0 project-card">
-                <img src="${image}" class="card-img-top" alt="${title}">
                 <div class="card-body d-flex flex-column">
                     <div class="mb-2">
                         ${tagsHtml}

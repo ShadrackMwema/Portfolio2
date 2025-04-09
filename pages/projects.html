@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Shadrack.Dev</title>
+    <!-- Favicon - Emoji -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Fonts -->
@@ -36,26 +41,14 @@
     <section class="py-5">
         <div class="container">
             <div class="mb-5">
-                <p class="lead">As a Full-Stack Developer specializing in accessible web applications, my projects reflect my commitment to creating digital experiences that are both technically sound and accessible to all users. Each project represents an opportunity to solve real-world problems while adhering to ethical development practices.</p>
+                <p class="lead">As a Backend Developer and DevOps enthusiast, my projects reflect my commitment to creating reliable infrastructure and efficient backend services. Each project represents an opportunity to solve real-world problems while adhering to best practices in automation, documentation, and system reliability.</p>
             </div>
             
             <project-filter></project-filter>
             
             <div class="row g-4 mt-3" id="projects-grid">
-                <div class="col-md-6 col-lg-4 project-item web">
-                    <project-card 
-                        image="https://via.placeholder.com/400x250"
-                        title="TICTACTOE-GAME"
-                        description="A simple yet engaging Tic-Tac-Toe game built with React, focusing on developing interactive UI components and understanding fundamental React concepts. Special attention was given to keyboard navigation and screen reader support."
-                        tags="React,JavaScript,CSS,Accessibility"
-                        github="https://github.com/yourusername/tictactoe-game"
-                        demo="https://yourliveurl.com/tictactoe-game"
-                    ></project-card>
-                </div>
-                
                 <div class="col-md-6 col-lg-4 project-item web app">
                     <project-card 
-                        image="https://via.placeholder.com/400x250"
                         title="Personal Portfolio Web App"
                         description="Portfolio built with Flask and React to showcase my skills, projects, and experience as a developer | Student. Features: Admin Panel, Dynamic content, API, Responsive Design, and WCAG compliance for accessibility."
                         tags="Flask,React,API,WCAG"
@@ -66,7 +59,6 @@
                 
                 <div class="col-md-6 col-lg-4 project-item app">
                     <project-card 
-                        image="https://via.placeholder.com/400x250"
                         title="Patient Tracker: Java-Webapp"
                         description="HEALTHTRACE, designed to link patients and doctors from the time of Diagnosis to Recovery. Hands on JSP and servlets & MySQL database. Created with ethical considerations for patient data privacy and security."
                         tags="Java,JSP,MySQL,Healthcare"
@@ -77,7 +69,6 @@
                 
                 <div class="col-md-6 col-lg-4 project-item ui app">
                     <project-card 
-                        image="https://via.placeholder.com/400x250"
                         title="Hostel Management System GUI"
                         description="I applied my object-oriented programming skills and integrated a SQL database to manage hostel operations efficiently. The system also features a user-friendly GUI with accessibility features like keyboard navigation and high contrast modes."
                         tags="Java,SQL,GUI,Accessibility"
@@ -88,7 +79,6 @@
                 
                 <div class="col-md-6 col-lg-4 project-item web">
                     <project-card 
-                        image="https://via.placeholder.com/400x250"
                         title="Emergency Reporting Web App"
                         description="A vanilla PHP-based application that allows users to report emergencies through a call, one-tap action, or message, ensuring quick and accessible incident reporting for timely response. Designed with extensive accessibility features."
                         tags="PHP,MySQL,AJAX,Emergency Services"
@@ -99,10 +89,19 @@
                 
                 <div class="col-md-6 col-lg-4 project-item ui">
                     <project-card 
-                        image="https://via.placeholder.com/400x250"
                         title="Accessible E-Commerce UI/UX Design"
                         description="A comprehensive UI/UX design for a modern e-commerce platform, featuring intuitive navigation, product showcases, and a seamless checkout process. Designed with WCAG guidelines in mind to ensure a truly inclusive shopping experience."
                         tags="Figma,UI/UX,Responsive,WCAG"
+                        github="#"
+                        demo="#"
+                    ></project-card>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 project-item devops">
+                    <project-card 
+                        title="CI/CD Pipeline Automation"
+                        description="Developed a self-healing Jenkins pipeline that automatically detects and recovers from common integration failures, reducing deployment issues by 75% and improving team productivity."
+                        tags="Jenkins,DevOps,Automation,Infrastructure"
                         github="#"
                         demo="#"
                     ></project-card>

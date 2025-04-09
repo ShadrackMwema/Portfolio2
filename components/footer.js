@@ -20,10 +20,10 @@ class Footer extends HTMLElement {
                         </div>
                         <div class="col-md-6">
                             <div class="social-links d-flex justify-content-center justify-content-md-end gap-3">
-                                <a href="https://github.com/yourusername" target="_blank" class="text-white">
+                                <a href="https://github.com/ShadrackMwema" target="_blank" class="text-white">
                                     <i class="fab fa-github fa-lg"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/in/shadrack-mutinda/" target="_blank" class="text-white">
+                                <a href="https://www.linkedin.com/in/shadrack-mutinda-2b5813239/" target="_blank" class="text-white">
                                     <i class="fab fa-linkedin fa-lg"></i>
                                 </a>
                                 <a href="#" target="_blank" class="text-white">
