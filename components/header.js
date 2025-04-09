@@ -48,6 +48,9 @@ class Header extends HTMLElement {
                                     <a class="nav-link" href="${isRoot ? '#projects' : '../index.html#projects'}">Projects</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link" href="${prefix}pages/portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" href="${isRoot ? '#contact' : '../index.html#contact'}">Contact</a>
                                 </li>
                             </ul>
